@@ -1,11 +1,11 @@
 import React from "react";
 import "./navbar.css";
-
+import logo from "../Assets/logo.png";
 const navbar = () => {
   return (
     <div className="navbar">
-      <img src="../Assets/logo.png" className="logo"></img>
       <div className="heading">
+        <img src={logo} className="logo"></img>
         <h1>The Wardrobe</h1>
       </div>
       <div className="Categories">
