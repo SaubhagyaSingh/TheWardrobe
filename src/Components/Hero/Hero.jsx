@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.css";
-import k2 from "../Assets/k2.webp";
+import k2 from "../Assets/k2.png";
 import saree from "../Assets/saree.webp";
 import suits from "../Assets/suits.jpg";
 
