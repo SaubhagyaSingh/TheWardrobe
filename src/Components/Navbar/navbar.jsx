@@ -13,11 +13,14 @@ const navbar = () => {
       <div className="Categories">
         <ul>
           <li>
-            <Link to="/">New Arrivals</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">Collections</a>
-            <ul className="cat">
+            <Link to="/arrivals">New Arrivals</Link>
+          </li>
+          <li>
+            <Link to="/collection">Collections</Link>
+            {/* <ul className="cat">
               <li>Suits</li>
               <li>Dupatte</li>
               <li>Bags</li>
@@ -25,16 +28,16 @@ const navbar = () => {
               <li>Gowns</li>
               <li>Skirts</li>
               <li>Kurtis</li>
-            </ul>
+            </ul> */}
           </li>
           <li>
             <Link to="/about">About Us</Link>
           </li>
           <li>
-          <Link to="/cart">Cart</Link>
+            <Link to="/cart">Cart</Link>
           </li>
           <li>
-          <Link to="/"></Link>
+            <Link to="/login">Login</Link>
           </li>
         </ul>
       </div>

@@ -7,14 +7,16 @@ import collection from "./Pages/collection";
 import login from "./Pages/login";
 import cart from "./Pages/cart";
 import product from "./Pages/product";
-
+import Hero from "./Components/Hero/Hero";
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Navbar />
+        <Hero />
         <Routes>
-          <Route path="/" element={<arrivals />} />
+          <Route path="/" element={<home />} />
+          <Route path="/arrivals" element={<arrivals />} />
           <Route path="/collections" element={<collection />} />
           <Route path="/login" element={<login />} />
           <Route path="/cart" element={<cart />} />
