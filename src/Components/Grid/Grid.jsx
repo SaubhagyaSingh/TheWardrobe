@@ -18,7 +18,17 @@ const Grid = () => {
         <div className="grid-tile"></div>
         <div className="grid-tile"></div>
         <div className="grid-tile"></div>
-        <div className="grid-tile"></div>   
+        <div className="grid-tile"></div>
+        <div className="grid-tile"></div>
+        <div className="grid-tile"></div>
+        <div className="grid-tile"></div>
+        <div className="grid-tile"></div>
+        <div className="grid-tile"></div>
+        <div className="grid-tile"></div>
+        <div className="grid-tile"></div>
+        <div className="grid-tile"></div>
+        <div className="grid-tile"></div>
+        <div className="grid-tile"></div>
       </div>
     </div>
   );
