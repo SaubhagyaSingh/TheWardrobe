@@ -13,7 +13,6 @@ margin-top: 20px;
 	overflow: hidden;
 	min-height: 37.5rem;
 	width: 100rem;
-	border: 10px solid black;
 }	
 
 #proparallax img {
@@ -38,26 +37,26 @@ margin-top: 20px;
 		width: 100rem;
 		left: 0rem;
 	}
-	27.78% { /* .imagepreunload */
+	37.78% { /* .imagepreunload */
 		width: 100rem;
 		left: 0rem;
 		right: 50rem;
 	}
-	33.33% { /* .imageunloaded */
+	43.33% { /* .imageunloaded */
 		height: 37.5rem;
 		width: 0rem;
 		left: 0rem;
 		right: 0rem;
 		opacity: 1;
 	}
-	33.34% { /* imageoff */
+	53.34% { /* imageoff */
 		opacity: 0;	
 	}
-	94.43% { /* .imageon */
+	64.43% { /* .imageon */
 		left: 0rem;
 		opacity: 0;
 	}
-	94.44% { /* .imageinitial */
+	74.44% { /* .imageinitial */
 		height: 37.5rem;
 		width: 0rem;
 		left: 50rem;

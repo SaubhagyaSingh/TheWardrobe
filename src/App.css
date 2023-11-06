@@ -1,3 +1,13 @@
+body{
+background:black;
+/* background-image: url(./Components/Assets/bg.jpeg); */
+background-size: cover;
+overflow-clip-margin: unset;
+overflow: visible;
+margin: 0;
+padding: 0;
+color:white;
+}
 .App {
   text-align: center;
 }

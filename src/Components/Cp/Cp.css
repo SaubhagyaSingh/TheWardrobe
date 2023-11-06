@@ -1,0 +1,30 @@
+#cp1
+{   
+    margin-left: 2%;
+    margin-top: 5%;
+    width: 50%;
+    margin-bottom:50px;
+    background-size: cover;
+
+    height: 340px;
+    background-image: url(../Assets/cp3.png);
+    background-repeat:no-repeat;
+}
+#cp2
+{   
+    margin-top: 2%;
+    width: 50%;
+  background-size: cover;
+    height: 340px;
+    background-image: url(../Assets/cp4.png);
+    background-repeat:no-repeat;
+}
+#cp_bg
+{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+

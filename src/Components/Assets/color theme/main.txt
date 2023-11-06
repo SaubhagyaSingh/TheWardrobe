@@ -1,0 +1,3 @@
+Bubble Gum Pink:#ffc1cc; 
+Blue-Gray:#6699cc;
+Lime :#32CD32;

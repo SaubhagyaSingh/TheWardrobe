@@ -1,4 +1,18 @@
+body
+{
+    background-size: cover;
+    
+}
+
+.main-body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../Components/Assets/loginbg.jpg);
+
+}
+
 .background{
+    
     width: 430px;
     height: 520px;
     position: absolute;
@@ -30,6 +44,10 @@
     bottom: -80px;
 }
 form{
+    background-image: url(../Components/Assets/loginbg.jpg);
+    background-size: cover;
+    overflow-clip-margin: unset;
+    overflow: visible;
     height: 520px;
     width: 400px;
     background-color: rgba(255,255,255,0.13);
@@ -45,7 +63,6 @@ form{
 }
 form *{
     font-family: 'Poppins',sans-serif;
-    color: #ffffff;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
@@ -75,12 +92,11 @@ input{
     font-weight: 300;
 }
 ::placeholder{
-    color: #e5e5e5;
 }
 button{
     margin-top: 50px;
     width: 100%;
-    background-color: #ffffff;
+    background-color:pink;
     color: #080710;
     padding: 15px 0;
     font-size: 18px;
@@ -98,7 +114,6 @@ button{
   border-radius: 3px;
   padding: 5px 10px 10px 5px;
   background-color: rgba(255,255,255,0.27);
-  color: #eaf0fb;
   text-align: center;
 }
 .social div:hover{

@@ -1,0 +1,19 @@
+.Shopping-Grid
+{   margin-left: 80px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.grid-tile
+
+{   border-radius: 20px;
+    border:5px rgb(255, 152, 169) solid;
+    background-color:aliceblue;
+    height: 250px;
+    width: 180px;
+    margin-bottom: 100px;
+
+}

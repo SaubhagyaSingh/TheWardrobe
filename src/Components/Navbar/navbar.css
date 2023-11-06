@@ -1,7 +1,5 @@
 body{
     height: 100%;
-    background: #000000;
-    color: #fff;
     font-family: 'Comfortaa', sans-serif;
 font-family: 'Open Sans', sans-serif;
 }
@@ -35,7 +33,7 @@ h1{
   .Categories ul{
     font-size: 20px;
     height: 50px;
-    background-color: pink;
+    background-color: #ffc1cc; 
     color:black;
     justify-content: center;
     align-items: center;

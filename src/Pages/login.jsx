@@ -52,9 +52,7 @@ const Login = () => {
   };
 
   return (
-    <div>
-      {/* ... Existing JSX code ... */}
-
+    <div className="main-body">
       <form onSubmit={handleSubmit}>
         <h3>Login Here</h3>
 
